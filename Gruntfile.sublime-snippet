@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+module.exports = (grunt) ->
+    grunt.initConfig
+        pkg: grunt.file.readJSON 'package.json'
+
+    grunt.loadNpmTasks '${1:grunt-contrib-uglify}';
+
+    grunt.registerTask('default', ['${2:uglify}']);
+};
+]]></content>
+    <tabTrigger>grunt</tabTrigger>
+    <scope>source.coffee</scope>
+</snippet>
