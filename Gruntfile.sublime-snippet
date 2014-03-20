@@ -7,7 +7,6 @@ module.exports = (grunt) ->
     grunt.loadNpmTasks '${1:grunt-contrib-uglify}';
 
     grunt.registerTask('default', ['${2:uglify}']);
-};
 ]]></content>
     <tabTrigger>grunt</tabTrigger>
     <scope>source.coffee</scope>
