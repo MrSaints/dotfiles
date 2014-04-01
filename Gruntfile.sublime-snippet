@@ -3,10 +3,29 @@
 module.exports = (grunt) ->
     grunt.initConfig
         pkg: grunt.file.readJSON 'package.json'
+        ${1:compass:
+            dev:
+                options:
+                    httpPath: ''
+                    cssDir: 'assets/css'
+                    sassDir: 'assets/sass'
+                    imagesDir: 'assets/img'
+                    importPath: 'bower_components'
+                    relativeAssets: true
+                    watch: true
+            dist:
+                options:
+                    environment: 'production'
+                    httpPath: '/'
+                    cssDir: 'assets/css'
+                    sassDir: 'assets/sass'
+                    imagesDir: 'assets/img'
+                    importPath: 'bower_components'
+                    force: true}
 
-    grunt.loadNpmTasks '${1:grunt-contrib-uglify}';
+    grunt.loadNpmTasks '${2:grunt-contrib-compass}';
 
-    grunt.registerTask('default', ['${2:uglify}']);
+    grunt.registerTask('default', ['${3:compass}']);
 ]]></content>
     <tabTrigger>grunt</tabTrigger>
     <scope>source.coffee</scope>
