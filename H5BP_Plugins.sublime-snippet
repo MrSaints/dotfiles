@@ -27,5 +27,6 @@ ${1}
 
 ]]></content>
     <tabTrigger>h5bp-plugins</tabTrigger>
+    <scope>source.js</scope>
     <description>H5BP Plugins.js</description>
 </snippet>
