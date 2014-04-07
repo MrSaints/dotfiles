@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+# Description:
+#   ${1}
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot ${2} - ${3}
+#
+# Author:
+#   ${4:MrSaints}
+
+module.exports = (robot) ->
+    robot.respond /${5} (.*)/i, (msg) ->
+    	${6}
+]]></content>
+    <tabTrigger>hscript</tabTrigger>
+    <scope>source.coffee</scope>
+    <description>Hubot Script</description>
+</snippet>
