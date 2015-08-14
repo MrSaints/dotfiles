@@ -1,4 +1,4 @@
-Sublime Snippets
-================
+dotfiles
+========
 
-My personal collection of [custom snippets](http://sublimetext.info/docs/en/extensibility/snippets.html) for Sublime Text Editor (3).
+WIP.
