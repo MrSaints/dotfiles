@@ -12,7 +12,7 @@
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists
     if [ -f "$HOME/.bashrc" ]; then
-	. "$HOME/.bashrc"
+        . "$HOME/.bashrc"
     fi
 fi
 
@@ -23,8 +23,9 @@ fi
 
 # Configure secondary display
 exec xrandr --output VGA1 --auto --left-of LVDS1 &
+wait
 
-# Set background for i3
+# Set wallpaper for i3
 exec feh --bg-scale "/home/mrsaints/Pictures/Wallpaper.png" --bg-scale "/home/mrsaints/Pictures/Wallpaper 2.png" &
 
 # Set terminal for i3
