@@ -10,6 +10,9 @@ alias extract="tar -xvzf"
 # Numerical CHMOD
 alias perms="stat --format '%a'"
 
+# IRC client
+alias irc="weechat"
+
 # Clean
 quickclean() {
     sudo apt-get autoclean
