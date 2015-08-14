@@ -1,15 +1,14 @@
-# Workspace
-alias claude="cd ~/Workspace/nodejs/ClaudeBot/"
-alias enactus="cd ~/Workspace/nodejs/Enactus/"
-alias goproj="cd ~/Workspace/golang/src/github.com/mrsaints/"
-alias arachnys="cd ~/Workspace/nodejs/Arachnys/Website/"
-alias foodfly="cd ~/Workspace/ruby/foodfly/"
+# Clear
+alias cl="clear"
+
+# Wget with no certificate
+alias wget="wget --no-check-certificate"
 
 # Untar
-alias untar="tar -xvzf"
+alias extract="tar -xvzf"
 
 # Numerical CHMOD
-alias getperms="stat --format '%a'"
+alias perms="stat --format '%a'"
 
 # Clean
 quickclean() {
