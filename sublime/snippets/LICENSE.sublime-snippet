@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 The MIT License (MIT)
-Copyright © ${1:2014} ${2:Ian Lai <ian@fyianlai.com>}
+Copyright © ${1:2015} ${2:Ian Lai <ian@fyianlai.com>}
 ${3:http://ian.mit-license.org/}
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
