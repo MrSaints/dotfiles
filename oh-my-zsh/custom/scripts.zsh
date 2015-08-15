@@ -5,7 +5,10 @@ alias cl="clear"
 alias wget="wget --no-check-certificate"
 
 # Untar
-alias extract="tar -xvzf"
+alias untar="tar -xvzf"
+
+# Extract using file-roller
+alias extract="file-roller -h"
 
 # Numerical CHMOD
 alias perms="stat --format '%a'"
