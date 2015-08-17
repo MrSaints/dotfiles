@@ -153,6 +153,7 @@ bar {
         status_command i3status
 }
 
+# Remove title bar
 new_window 1pixel
 
 # Workspace and Screens
@@ -163,6 +164,10 @@ workspace 2 output LVDS1
 bindsym XF86AudioRaiseVolume exec amixer set Master 1%+ && killall -USR1 i3status
 bindsym XF86AudioLowerVolume exec amixer set Master 1%- && killall -USR1 i3status
 bindsym XF86AudioMute exec amixer set Master toggle && killall -USR1 i3status
+
+# Screenshots
+bindsym Print exec scrot -e 'mv $f ~/Pictures/Screenshots/'
+bindsym Mod1+Print exec scrot -s -e 'mv $f ~/Pictures/Screenshots/'
 
 # Launch shortcuts
 bindsym $mod+z exec google-chrome-beta
