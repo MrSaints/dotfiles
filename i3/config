@@ -153,9 +153,16 @@ bar {
         status_command i3status
 }
 
+new_window 1pixel
+
 # Workspace and Screens
 workspace 1 output VGA1
 workspace 2 output LVDS1
+
+# Multimedia keys
+bindsym XF86AudioRaiseVolume exec amixer set Master 1%+ && killall -USR1 i3status
+bindsym XF86AudioLowerVolume exec amixer set Master 1%- && killall -USR1 i3status
+bindsym XF86AudioMute exec amixer set Master toggle && killall -USR1 i3status
 
 # Launch shortcuts
 bindsym $mod+z exec google-chrome-beta
