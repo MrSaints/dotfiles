@@ -16,7 +16,11 @@ nvm alias default stable
 if type npm >/dev/null 2>&1
 then
     npm config set init.author.name "Ian Lai"
-    npm config set init.author.email os@fyianlai.com
-    npm config set init.author.url https://www.fyianlai.com/
+    npm config set init.author.email "os@fyianlai.com"
+    npm config set init.author.url "https://www.fyianlai.com/"
     npm config set init.license MIT
+
+    # Install useful npm globals
+    npm install -g bower
+    npm install -g http-server
 fi
