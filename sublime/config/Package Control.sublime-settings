@@ -4,8 +4,13 @@
     ],
     "installed_packages":
     [
+        "Base16 Color Schemes",
         "Bubububububad and Boneyfied Color Schemes",
+        "GoSublime",
         "Numix Theme",
-        "Package Control"
+        "Package Control",
+        "Sass",
+        "SideBarEnhancements",
+        "TrailingSpaces"
     ]
 }
