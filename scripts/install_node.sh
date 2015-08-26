@@ -24,4 +24,7 @@ then
     npm install -g bower
     npm install -g grunt-cli
     npm install -g http-server
+
+    # Verify npm account
+    npm adduser
 fi
