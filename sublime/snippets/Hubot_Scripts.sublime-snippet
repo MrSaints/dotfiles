@@ -3,21 +3,24 @@
 # Description:
 #   ${1}
 #
-# Dependencies:
-#   None
-#
 # Configuration:
 #   None
 #
 # Commands:
 #   hubot ${2} - ${3}
 #
+# Notes:
+#   <Optional notes>
+#
 # Author:
 #   ${4:MrSaints}
 
 module.exports = (robot) ->
-    robot.respond /${5} (.*)/i, (msg) ->
-    	${6}
+    robot.respond /${5} (.*)/i, (res) ->
+        ${6}
+
+    robot.hear /hello/, (res) ->
+        res.send "world"
 ]]></content>
     <tabTrigger>hscript</tabTrigger>
     <scope>source.coffee</scope>
