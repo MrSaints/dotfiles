@@ -20,12 +20,9 @@ then
     npm config set init.author.url "https://www.fyianlai.com/"
     npm config set init.license MIT
 
-    # Install useful npm globals
-    npm install -g coffee-script
-    npm install -g bower
-    npm install -g grunt-cli
-    npm install -g http-server
-
     # Verify npm account
     npm adduser
+
+    # Install useful npm globals
+    npm install -g coffee-script bower gulp grunt-cli webpack http-server
 fi
