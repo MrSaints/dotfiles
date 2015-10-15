@@ -26,7 +26,10 @@ exec xrandr --output VGA1 --auto --left-of LVDS1 &
 wait
 
 # Set wallpaper for i3
-exec feh --bg-scale "/home/mrsaints/Pictures/Wallpaper.png" --bg-scale "/home/mrsaints/Pictures/Wallpaper 2.png" &
+exec feh --bg-fill "/home/mrsaints/Pictures/Wallpaper.png" --bg-fill "/home/mrsaints/Pictures/Wallpaper 2.png" &
+
+# Disable TouchPad
+synclient TouchpadOff=1 &
 
 # Set terminal for i3
 export TERMINAL=rxvt
