@@ -3,7 +3,7 @@
     "caret_extra_bottom": 2,
     "caret_extra_top": 2,
     "caret_extra_width": 3,
-    "color_scheme": "Packages/Bubububububad and Boneyfied Color Schemes/Boneyfied.tmTheme",
+    "color_scheme": "Packages/Base16 Color Schemes/base16-monokai.dark.tmTheme",
     "dictionary": "Packages/Language - English/en_GB.dic",
     "font_face": "Source Code Pro",
     "font_size": 11,
@@ -25,7 +25,10 @@
     "match_brackets_braces": true,
     "match_brackets_content": true,
     "match_brackets_square": true,
-    "rulers": [80],
+    "rulers":
+    [
+        80
+    ],
     "theme": "Numix Dark.sublime-theme",
     "translate_tabs_to_spaces": true
 }
