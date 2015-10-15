@@ -1,4 +1,5 @@
 {
+    "bootstrapped": true,
     "in_process_packages":
     [
     ],
@@ -6,6 +7,7 @@
     [
         "Base16 Color Schemes",
         "Better CoffeeScript",
+        "BracketHighlighter",
         "Bubububububad and Boneyfied Color Schemes",
         "GoSublime",
         "Numix Theme",
