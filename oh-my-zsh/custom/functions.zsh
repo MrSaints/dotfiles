@@ -1,20 +1,7 @@
-# Clear
-alias cl="clear"
-
-# Wget with no certificate
-alias wget="wget --no-check-certificate"
-
-# Untar
-alias untar="tar -xvzf"
-
-# Extract using file-roller
-alias extract="file-roller -h"
-
-# Numerical CHMOD
-alias perms="stat --format '%a'"
-
-# IRC client
-alias irc="weechat"
+# Create a new directory, and enter it
+md() {
+    mkdir -p "$1" && cd "$1"
+}
 
 # Set directories to 755 and files to 644
 # Use with caution! (do not execute in root)
