@@ -1,5 +1,5 @@
+alias www="cd ~/Workspace/html/website/"
 alias claude="cd ~/Workspace/nodejs/ClaudeBot/"
 alias enactus="cd ~/Workspace/nodejs/Enactus/"
-alias goproj="cd ~/Workspace/golang/src/github.com/mrsaints/"
-alias arachnys="cd ~/Workspace/nodejs/Arachnys/Website/"
+alias gopher="cd ~/Workspace/golang/src/github.com/mrsaints/"
 alias foodfly="cd ~/Workspace/ruby/foodfly/"
