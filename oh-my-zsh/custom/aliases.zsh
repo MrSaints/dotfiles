@@ -1,3 +1,10 @@
+# Go
+alias gg="go get"
+
+# NPM
+alias nis="npm install --save"
+alias nisd="npm install --save-dev"
+
 # Git
 alias g="git"
 
