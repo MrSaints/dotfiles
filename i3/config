@@ -173,3 +173,16 @@ bindsym Mod1+Print exec scrot -s -e 'mv $f ~/Pictures/Screenshots/'
 bindsym $mod+z exec google-chrome-beta
 bindsym $mod+x exec subl
 bindsym $mod+c exec pcmanfm
+
+# Shutdown
+set $mode_system System (e) logout, (r) reboot, (Shift+s) shutdown
+mode "$mode_system" {
+    bindsym e exec --no-startup-id i3-msg exit, mode "default"
+    bindsym r exec --no-startup-id systemctl reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"
+
+    # Return/Cancel: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+Pause mode "$mode_system"
