@@ -26,5 +26,7 @@ alias perms="stat --format '%a'"
 # IRC client
 alias irc="weechat"
 
-# Safe removals (prompts)
+# Safety (prompts)
+alias cp="cp -i"
+alias mv="mv -i"
 alias rm="rm -i"
