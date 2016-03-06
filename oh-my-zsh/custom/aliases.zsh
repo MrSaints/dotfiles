@@ -2,8 +2,9 @@
 alias gg="go get"
 
 # NPM
-alias nis="npm install --save"
-alias nisd="npm install --save-dev"
+alias npmi="npm install --save"
+alias npmid="npm install --save-dev"
+alias npmfuckoff="rm -rf node_modules/ && npm install"
 
 # Git
 alias g="git"
@@ -15,7 +16,8 @@ alias cl="clear"
 alias wget="wget --no-check-certificate"
 
 # Untar
-alias untar="tar -xvzf"
+alias xtar="tar -xvzf"
+alias ctar="tar -cvzf"
 
 # Extract using file-roller
 alias extract="file-roller -h"
