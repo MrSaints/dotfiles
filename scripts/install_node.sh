@@ -24,5 +24,6 @@ then
     npm adduser
 
     # Install useful npm globals
-    npm install -g coffee-script bower gulp grunt-cli webpack http-server pushstate-server
+    npm install -g coffee-script bower gulp grunt-cli webpack diff-so-fancy
+    npm install -g http-server pushstate-server
 fi

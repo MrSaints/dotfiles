@@ -1,5 +1,6 @@
 # Go
 alias gg="go get"
+alias gocoverage="go test -coverprofile=coverage.out && go tool cover -html=coverage.out"
 
 # NPM
 alias npmi="npm install --save"
