@@ -43,7 +43,7 @@ defaults write com.apple.dock autohide-time-modifier -float 0
 ## Use scale for minimize/maximize effect
 defaults write com.apple.dock mineffect -string "scale"
 ## Shrink size of Dock items / icons
-defaults write com.apple.dock tilesize -int 16
+defaults write com.apple.dock tilesize -int 32
 
 # Screen
 ## Prompt for password immediately
