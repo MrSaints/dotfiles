@@ -12,3 +12,5 @@ fi
 # Installs git-extras
 sudo apt-get update
 sudo apt-get install git-extras
+
+git config --global core.excludesfile ~/.gitignore_global
