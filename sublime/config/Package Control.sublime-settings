@@ -5,6 +5,7 @@
     ],
     "installed_packages":
     [
+        "Babel",
         "Base16 Color Schemes",
         "Better CoffeeScript",
         "BracketHighlighter",
