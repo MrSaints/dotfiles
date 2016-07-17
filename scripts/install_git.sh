@@ -14,3 +14,4 @@ sudo apt-get update
 sudo apt-get install git-extras
 
 git config --global core.excludesfile ~/.gitignore_global
+git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
