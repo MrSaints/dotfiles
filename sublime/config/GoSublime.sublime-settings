@@ -2,5 +2,9 @@
     "env": {
         "GOPATH": "$HOME/Workspace/golang",
         "PATH": "$PATH:$GOPATH/bin"
-    }
+    },
+    "linters": [
+        {"cmd": ["go", "vet"]}
+    ],
+    "autocomplete_builtins": true
 }
