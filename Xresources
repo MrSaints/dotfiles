@@ -7,24 +7,32 @@ URxvt.keysym.M-u: perl:url-select:select_next
 URxvt.url-select.underline: true
 URxvt.url-select.launcher: /usr/bin/xdg-open
 
-! Base16 Monokai
-! Scheme: Wimer Hazenberg (http://www.monokai.nl)
-*foreground:   #f8f8f2
-*background:   #272822
-*cursorColor:  #f8f8f2
-*color0:       #272822
-*color1:       #f92672
-*color2:       #a6e22e
-*color3:       #f4bf75
-*color4:       #66d9ef
-*color5:       #ae81ff
-*color6:       #a1efe4
-*color7:       #f8f8f2
-*color8:       #75715e
-*color9:       #f92672
-*color10:      #a6e22e
-*color11:      #f4bf75
-*color12:      #66d9ef
-*color13:      #ae81ff
-*color14:      #a1efe4
-*color15:      #f9f8f5
+! gjm scheme
+! Source: http://www.xcolors.net/dl/gjm
+*cursorColor:   #cee318
+*background:    #1C1C1C
+*foreground:    #c5c5c5
+! black
+*color0:        #1C1C1C
+*color8:        #666666
+! red
+*color1:        #ff005b
+*color9:        #ff00a0
+! green
+*color2:        #cee318
+*color10:       #ccff00
+! yellow
+*color3:        #ffe755
+*color11:       #ff9f00
+! blue
+*color4:        #048ac7
+*color12:       #48c6ff
+! magenta
+*color5:        #833c9f
+*color13:       #be67e1
+! cyan
+*color6:        #0ac1cd
+*color14:       #63e7f0
+! white
+*color7:        #e5e5e5
+*color15:       #f3f3f3
