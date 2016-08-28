@@ -170,7 +170,7 @@ bindsym Print exec scrot -e 'mv $f ~/Pictures/Screenshots/'
 bindsym Mod1+Print exec scrot -s -e 'mv $f ~/Pictures/Screenshots/'
 
 # Launch shortcuts
-bindsym $mod+z exec google-chrome-beta
+bindsym $mod+z exec google-chrome
 bindsym $mod+x exec subl
 bindsym $mod+c exec pcmanfm
 

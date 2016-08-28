@@ -1,5 +1,5 @@
 ! Source Code Pro (Powerline)
-URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline-11
+URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline-10
 
 ! Extensions
 URxvt.perl-ext: default,matcher
