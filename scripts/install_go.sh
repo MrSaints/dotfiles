@@ -7,4 +7,7 @@
 
 chmod +x godeb
 
-./godeb install 1.6.2
+./godeb install 1.7
+
+# Clean up
+rm go_*.deb

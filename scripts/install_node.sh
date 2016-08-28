@@ -2,7 +2,7 @@
 
 # Installed using NVM
 # Source: https://github.com/creationix/nvm
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.26.0/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.6/install.sh | bash
 . ~/.nvm/nvm.sh
 
 nvm install stable
