@@ -33,3 +33,9 @@ synclient TouchpadOff=1 &
 
 # Set terminal for i3
 export TERMINAL=rxvt
+
+# Reduce keyboard delay
+xset r rate 200 25
+
+# Start go-sct
+sct
