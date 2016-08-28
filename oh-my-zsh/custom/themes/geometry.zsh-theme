@@ -211,7 +211,7 @@ prompt_geometry_render() {
  %(?.$GEOMETRY_PROMPT.$GEOMETRY_EXIT_VALUE) %F{$GEOMETRY_COLOR_DIR}%3~%f "
 
   PROMPT2=" $GEOMETRY_SYMBOL_RPROMPT "
-  RPROMPT="$(prompt_geometry_git_info)%{$reset_color%}"
+  RPROMPT="$(prompt_geometry_git_info)%{$reset_color%} "
 }
 
 prompt_geometry_setup() {
