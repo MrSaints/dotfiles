@@ -3,7 +3,7 @@
     "caret_extra_bottom": 2,
     "caret_extra_top": 2,
     "caret_extra_width": 3,
-    "color_scheme": "Packages/Base16 Color Schemes/base16-monokai.dark.tmTheme",
+    "color_scheme": "Packages/Theme - Midnight/Midnight.dark.tmTheme",
     "dictionary": "Packages/Language - English/en_GB.dic",
     "font_face": "mononoki",
     "font_size": 12,
@@ -30,6 +30,6 @@
     [
         80
     ],
-    "theme": "Numix Dark.sublime-theme",
+    "theme": "Midnight.sublime-theme",
     "translate_tabs_to_spaces": true
 }
