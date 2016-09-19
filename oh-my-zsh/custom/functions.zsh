@@ -1,3 +1,11 @@
+# Clean Docker containers, images, and volumes
+docker-clean() {
+    docker kill $(docker ps -q)
+    docker rm $(docker ps -a -q)
+    docker rmi $(docker images -q -f dangling=true)
+    docker volume rm $(docker volume ls -qf dangling=true)
+}
+
 # Create a new directory, and enter it
 mkd() {
     mkdir -p "$1" && cd "$1"
@@ -10,7 +18,7 @@ fixchmod() {
     sudo find . -type f -print0 | xargs -0 chmod 0644
 }
 
-# Clean
+# Clean packages
 quickclean() {
     sudo apt-get autoclean
     sudo apt-get autoremove

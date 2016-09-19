@@ -38,4 +38,4 @@ export TERMINAL=rxvt
 xset r rate 200 25
 
 # Start go-sct
-sct
+# exec sct
