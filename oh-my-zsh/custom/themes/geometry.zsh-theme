@@ -51,7 +51,7 @@ PROMPT_GEOMETRY_COLORIZE_SYMBOL=${PROMPT_GEOMETRY_COLORIZE_SYMBOL:-true}
 PROMPT_GEOMETRY_COLORIZE_ROOT=${PROMPT_GEOMETRY_COLORIZE_ROOT:-true}
 
 # Use ag if possible
-GREP=$(which ag &> /dev/null && echo "ag" || echo "grep")
+GREP=$(command -v ag >/dev/null 2>&1 && echo "ag" || echo "grep")
 
 prompt_geometry_git_time_since_commit() {
   if [[ $(git log -1 2>&1 > /dev/null | grep -c "^fatal: bad default revision") == 0 ]]; then
@@ -154,7 +154,7 @@ prompt_geometry_git_conflicts() {
       color=$GEOMETRY_COLOR_GIT_CONFLICTS_UNSOLVED
     fi
 
-    echo "$(prompt_geometry_colorize $color $text)"
+    echo "$(prompt_geometry_colorize $color $text) "
   else
     echo ""
   fi
@@ -162,8 +162,8 @@ prompt_geometry_git_conflicts() {
 
 prompt_geometry_git_info() {
   if git rev-parse --git-dir > /dev/null 2>&1; then
-    if $PROMPT_GEOMETRY_GIT_CONFLICTS; then
-      conflicts="$(prompt_geometry_git_conflicts) "
+    if $PROMPT_GEOMETRY_GIT_CONFLICTS ; then
+      conflicts="$(prompt_geometry_git_conflicts)"
     fi
 
     if $PROMPT_GEOMETRY_GIT_TIME; then
@@ -182,7 +182,7 @@ prompt_geometry_hash_color() {
   fi
 
   local sum=0
-  for for i in {0..${#1}}; do
+  for i in {0..${#1}}; do
     ord=$(printf '%d' "'${1[$i]}")
     sum=$(($sum + $ord))
   done
@@ -207,11 +207,17 @@ prompt_geometry_set_title() {
 }
 
 prompt_geometry_render() {
+  if [ $? -eq 0 ] ; then
+    PROMPT_SYMBOL=$GEOMETRY_SYMBOL_PROMPT
+  else
+    PROMPT_SYMBOL=$GEOMETRY_SYMBOL_EXIT_VALUE
+  fi
+
   PROMPT="
- %(?.$GEOMETRY_PROMPT.$GEOMETRY_EXIT_VALUE) %F{$GEOMETRY_COLOR_DIR}%3~%f "
+ %${#PROMPT_SYMBOL}{%(?.$GEOMETRY_PROMPT.$GEOMETRY_EXIT_VALUE)%} %F{$GEOMETRY_COLOR_DIR}%3~%f "
 
   PROMPT2=" $GEOMETRY_SYMBOL_RPROMPT "
-  RPROMPT="$(prompt_geometry_git_info)%{$reset_color%} "
+  RPROMPT="$(prompt_geometry_git_info)%f"
 }
 
 prompt_geometry_setup() {
