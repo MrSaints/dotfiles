@@ -11,3 +11,7 @@ sudo apt-get install docker-engine
 
 # Fixes "Cannot connect to the Docker daemon" error
 sudo usermod -aG docker $(whoami)
+
+# Installs Docker Compose as a container
+curl -L https://github.com/docker/compose/releases/download/1.8.0/run.sh > /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
