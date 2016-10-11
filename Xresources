@@ -1,3 +1,5 @@
+URxvt*termName: screen-256color
+
 ! Source Code Pro (Powerline)
 URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline-10
 
