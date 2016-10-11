@@ -3,10 +3,10 @@
     "caret_extra_bottom": 2,
     "caret_extra_top": 2,
     "caret_extra_width": 3,
-    "color_scheme": "Packages/Theme - Midnight/Midnight.dark.tmTheme",
+    "color_scheme": "Packages/ayu/ayu.tmTheme",
     "dictionary": "Packages/Language - English/en_GB.dic",
     "font_face": "mononoki",
-    "font_size": 12,
+    "font_size": 11,
     "highlight_line": true,
     "highlight_modified_tabs": true,
     "ignored_packages":
@@ -30,6 +30,8 @@
     [
         80
     ],
-    "theme": "Midnight.sublime-theme",
-    "translate_tabs_to_spaces": true
+    "theme": "ayu.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "ui_font_size_small": true,
+    "ui_separator": true
 }
