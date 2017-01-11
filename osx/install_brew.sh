@@ -4,6 +4,7 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 brew upgrade --all
+brew cask update
 
 # Extras
 brew tap caskroom/cask
@@ -35,6 +36,7 @@ brew cask install flux
 brew cask install google-chrome-beta
 brew cask install iterm2
 brew cask install sublime-text3
+brew cask install fluor
 
 # Workflow
 brew install heroku-toolbelt
