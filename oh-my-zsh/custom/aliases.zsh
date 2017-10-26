@@ -33,3 +33,6 @@ alias irc="weechat"
 alias cp="cp -i"
 alias mv="mv -i"
 alias rm="rm -i"
+
+# Better `cat` code formatting
+alias c="pygmentize -O style=monokai -f console256 -g"
