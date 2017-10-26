@@ -3,10 +3,11 @@
 # Installs git
 sudo apt-get install git
 
+# TODO: configure GPG keys
 if type git >/dev/null 2>&1
 then
     git config --global user.name "Ian Lai"
-    git config --global user.email "MrSaints@users.noreply.github.com"
+    git config --global user.email "ian@fyianlai.com"
 fi
 
 # Installs git-extras
