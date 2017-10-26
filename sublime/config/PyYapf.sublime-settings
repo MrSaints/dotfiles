@@ -1,0 +1,6 @@
+{
+    "config": {
+        "COLUMN_LIMIT": 80
+    },
+    "on_save": false
+}

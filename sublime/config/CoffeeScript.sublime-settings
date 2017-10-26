@@ -1,5 +1,5 @@
 {
-    "lintOnSave": false,
+    "lintOnSave": true,
     "watchOnSave": false,
     "compileOnSave": false
 }
