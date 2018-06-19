@@ -9,5 +9,8 @@ chmod +x godeb
 
 ./godeb install 1.9
 
+go get -u github.com/golang/dep/cmd/dep
+go get -u golang.org/x/tools/cmd/guru
+
 # Clean up
 rm go_*.deb
