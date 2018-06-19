@@ -46,8 +46,8 @@ brew cask install flux
 brew cask install smcfancontrol
 
 # Workflow
-brew install heroku-toolbelt
-heroku update
+# brew install heroku-toolbelt
+# heroku update
 
 # brew cask install livereload
 
