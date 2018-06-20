@@ -2,7 +2,7 @@
 
 # Installed using NVM
 # Source: https://github.com/creationix/nvm
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.6/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 . ~/.nvm/nvm.sh
 
 nvm install stable
@@ -25,6 +25,5 @@ then
 
     # Install useful npm globals
     npm install -g yarn
-    yarn global add coffee-script bower gulp grunt-cli webpack diff-so-fancy
-    yarn global add http-server pushstate-server
+    yarn global add diff-so-fancy
 fi

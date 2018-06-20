@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Create directory for screenshots
-mkdir -p "$HOME/Pictures/Screenshots/"
+mkdir -p "$HOME/screenshots/"
 
 # Run scripts
 ./install_git.sh
