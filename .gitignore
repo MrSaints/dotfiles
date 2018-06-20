@@ -1,1 +1,9 @@
 *.redacted.zsh
+
+# Sublime Text
+Package Control.cache/
+Package Control.last-run
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+*.tmTheme
+GoSublime

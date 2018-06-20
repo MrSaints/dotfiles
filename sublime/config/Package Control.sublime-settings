@@ -1,10 +1,7 @@
 {
     "bootstrapped": true,
-    "in_process_packages":
-    [
-    ],
-    "installed_packages":
-    [
+    "in_process_packages": [],
+    "installed_packages": [
         "ayu",
         "Babel",
         "Base16 Color Schemes",
