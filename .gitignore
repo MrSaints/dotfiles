@@ -1,5 +1,7 @@
 *.redacted.zsh
 
+.uuid
+
 # Sublime Text
 Package Control.cache/
 Package Control.last-run
