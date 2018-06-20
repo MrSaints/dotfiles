@@ -1,7 +1,8 @@
 ! Source Code Pro (Powerline)
-URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline:size=10,xft:FontAwesome:size=10
+URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline:size=10:antialias=true,xft:Icons:size=10:antialias=true
 
-URxvt.letterSpace: 1
+URxvt.scrollBar: false
+URxvt.cursorBlink: true
 
 !
 ! Generated with :
