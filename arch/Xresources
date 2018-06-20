@@ -1,5 +1,5 @@
 ! Source Code Pro (Powerline)
-URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline-10
+URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline:size=10,xft:FontAwesome:size=10
 
 URxvt.letterSpace: 1
 
