@@ -1,0 +1,6 @@
+[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
+
+xrandr --output eDP-1 --mode 1280x800
+xset r rate 200 25
+
+exec i3
