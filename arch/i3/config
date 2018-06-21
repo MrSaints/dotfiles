@@ -194,7 +194,7 @@ bindcode 121 exec amixer set Master toggle && killall -SIGUSR1 i3status
 # Shutdown
 set $mode_system System (e) logout, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
-    bindsym e exec --no-startup-id i3-msg exit, mode "default"
+    bindsym e exec --no-startup-id i3lock -c 000000, mode "default"
     bindsym r exec --no-startup-id systemctl reboot, mode "default"
     bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"
 
