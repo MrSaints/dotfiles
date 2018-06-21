@@ -3,6 +3,9 @@
 # Create directory for screenshots
 mkdir -p "$HOME/screenshots/"
 
+# Create workspaces
+mkdir -p "$HOME/workspace/golang/"
+
 # Run scripts
 ./install_git.sh
 ./install_zsh.sh

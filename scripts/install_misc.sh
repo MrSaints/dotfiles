@@ -5,6 +5,9 @@ if [[ $REV = *"ARCH"* ]]; then
     echo "ArchLinux"
     sudo pacman -S --needed rxvt-unicode i3 feh scrot pcmanfm p7zip wget alsa-utils openssh wget
 
+    # Mac-specific
+    sudo pacman -S --needed xf86-input-synaptics
+
     mkdir ~/aur/
     git clone https://aur.archlinux.org/yay.git ~/aur/yay/
     cd ~/aur/yay/
