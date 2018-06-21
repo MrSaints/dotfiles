@@ -42,3 +42,8 @@ newssh() {
 
     ssh-keygen -b 4096 -f $1 -C $currentuser@$(hostname) -o -a 500
 }
+
+# Hacky start X w/ logout on exit
+startx() {
+    command startx && exit
+}
