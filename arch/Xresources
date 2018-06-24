@@ -1,5 +1,5 @@
 ! Source Code Pro (Powerline)
-URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline:size=10:antialias=true,xft:Icons:size=10:antialias=true
+URxvt.font: xft:mononoki:size=10:antialias=true:hinting=true
 
 URxvt.scrollBar: false
 URxvt.cursorBlink: true
