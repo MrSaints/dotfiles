@@ -4,6 +4,7 @@ REV=$(uname -r)
 if [[ $REV = *"ARCH"* ]]; then
     echo "ArchLinux"
     sudo pacman -S --needed docker
+    sudo systemctl enable docker.service
 else
     echo "Debian"
 
