@@ -1,8 +1,3 @@
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 
-~/dotfiles/arch/arandr/arachnys.sh 2>/dev/null
-xset r rate 200 25
-
-feh --bg-fill "/home/mrsaints/wallpaper.jpg"
-
 exec i3
