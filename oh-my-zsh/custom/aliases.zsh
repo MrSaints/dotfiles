@@ -1,6 +1,10 @@
 # Docker
 alias dtmp="docker-compose run --rm"
 
+# Kubernetes
+alias kc="kubectl"
+alias kcuse="kubectl config use-context"
+
 # Go
 alias gg="go get"
 alias gocov="go test -coverprofile=coverage.out && go tool cover -html=coverage.out"
