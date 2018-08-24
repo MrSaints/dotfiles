@@ -205,5 +205,5 @@ mode "$mode_system" {
 bindsym $mod+Escape mode "$mode_system"
 
 exec --no-startup-id xset r rate 200 25
-exec --no-startup-id ~/dotfiles/arch/arandr/arachnys.sh
-exec --no-startup-id ~/.fehbg &
+exec --no-startup-id /home/mrsaints/dotfiles/arch/arandr/arachnys.sh
+exec --no-startup-id /home/mrsaints/.fehbg

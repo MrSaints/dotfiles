@@ -12,6 +12,8 @@ if [[ $REV = *"ARCH"* ]]; then
     git clone https://aur.archlinux.org/yay.git ~/aur/yay/
     cd ~/aur/yay/
     makepkg -si
+
+    yay -S google-chrome-beta google-cloud-sdk kubectx
 else
     echo "Debian"
     # Installs urxvt terminal (with support for 256 colours)
