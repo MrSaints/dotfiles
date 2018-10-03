@@ -13,3 +13,6 @@ mkdir -p "$HOME/workspace/golang/"
 ./install_docker.sh
 ./install_go.sh
 ./install_node.sh
+
+# Add to shell config:
+# eval $(ssh-agent)
