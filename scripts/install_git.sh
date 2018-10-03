@@ -24,5 +24,7 @@ fi
 git config --global core.excludesfile ~/.gitignore_global
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 git config --global alias.tree "log --graph --decorate --pretty=oneline --abbrev-commit"
+git config --global rebase.autoStash true true
+git config --global remote.origin.prune true
 
 git config --global core.editor "nano"
