@@ -1,38 +1,25 @@
-<!-- https://gist.github.com/anonymous/916527400a47a70204729f82985b4ec8 -->
-<?xml version='1.0'?>
-<!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig
+  SYSTEM 'fonts.dtd'>
 <fontconfig>
-  <!-- Emoji config -->
   <alias>
-    <family>Apple Color Emoji</family>
-    <prefer><family>emoji</family></prefer>
+    <family>sans-serif</family>
+    <prefer>
+      <family>Noto Sans</family>
+      <family>Noto Color Emoji</family>
+    </prefer>
   </alias>
   <alias>
-    <family>Segoe UI Emoji</family>
-    <prefer><family>emoji</family></prefer>
+    <family>serif</family>
+    <prefer>
+      <family>Noto Serif</family>
+      <family>Noto Color Emoji</family>
+    </prefer>
   </alias>
   <alias>
-    <family>Segoe UI Symbol</family>
-    <prefer><family>emoji</family></prefer>
-  </alias>
-  <alias>
-    <family>Noto Emoji</family>
-    <prefer><family>emoji</family></prefer>
-  </alias>
-  <alias>
-    <family>Noto Color Emoji</family>
-    <prefer><family>emoji</family></prefer>
-  </alias>
-  <alias>
-    <family>Symbola</family>
-    <prefer><family>emoji</family></prefer>
-  </alias>
-  <alias>
-    <family>Android Emoji</family>
-    <prefer><family>emoji</family></prefer>
-  </alias>
-  <alias>
-    <family>EmojiSymbols</family>
-    <prefer><family>emoji</family></prefer>
+    <family>monospace</family>
+    <prefer>
+      <family>mononoki</family>
+    </prefer>
   </alias>
 </fontconfig>
