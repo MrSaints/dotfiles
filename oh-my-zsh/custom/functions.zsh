@@ -1,9 +1,19 @@
 # Clean Docker containers, images, and volumes
 docker-clean() {
+    docker system prune -f --volumes
     docker kill $(docker ps -q)
     docker rm $(docker ps -a -q)
     docker rmi $(docker images -q -f dangling=true)
     docker volume rm $(docker volume ls -qf dangling=true)
+}
+
+docker-wipe() {
+    docker system prune -f -a
+}
+
+npm-clean() {
+    sudo nvm cache clear
+    sudo yarn cache clean
 }
 
 # Create a new directory, and enter it
@@ -14,15 +24,29 @@ mkd() {
 # Set directories to 755 and files to 644
 # Use with caution! (do not execute in root)
 fixchmod() {
-    sudo find * -type d -print0 | xargs -0 chmod 0755
-    sudo find . -type f -print0 | xargs -0 chmod 0644
+    sudo find * -type d -print0 | sudo xargs -0 chmod 0755
+    sudo find . -type f -print0 | sudo xargs -0 chmod 0644
 }
 
 # Clean packages
 quickclean() {
-    sudo apt-get autoclean
-    sudo apt-get autoremove
-    dpkg --list | grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
+    REV=$(uname -r)
+    if [[ $REV = *"ARCH"* ]]; then
+        echo "ArchLinux"
+        sudo pacman -Rscn $(pacman -Qtdq)
+        sudo pacman -Sc
+    else
+        echo "Debian"
+        sudo apt-get autoclean
+        sudo apt-get autoremove
+        dpkg --list | grep "^rc" | cut -d " " -f 3 | xargs sudo dpkg --purge
+    fi
+}
+
+quickreload() {
+    sudo timedatectl set-ntp true
+    sudo systemctl restart connman
+    sudo systemctl restart dnscrypt-proxy
 }
 
 # Generate SSH keys
