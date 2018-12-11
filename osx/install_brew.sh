@@ -10,12 +10,14 @@ brew tap homebrew/cask-versions
 
 # Utils
 brew install coreutils --with-default-names
-brew install jid
 brew install parallel
 brew install wget
-brew install ripgrep
-brew install diff-so-fancy
 # brew install ffmpeg
+
+brew install jid
+brew install ripgrep
+brew install bat
+brew install diff-so-fancy
 # brew install the_platinum_searcher
 
 brew install keybase
