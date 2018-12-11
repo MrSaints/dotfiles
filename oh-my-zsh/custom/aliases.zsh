@@ -9,6 +9,9 @@ alias kcuse="kubectl config use-context"
 alias gg="go get"
 alias gocov="go test -coverprofile=coverage.out && go tool cover -html=coverage.out"
 
+# Python
+alias python=python3
+
 # NPM
 alias npmi="npm install --save"
 alias npmid="npm install --save-dev"
