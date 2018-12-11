@@ -1,8 +1,6 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
+	"in_process_packages": [],
 	"installed_packages":
 	[
 		"ayu",
@@ -14,7 +12,6 @@
 		"Dockerfile Syntax Highlighting",
 		"Git",
 		"GoGuru",
-		"GoSublime",
 		"GraphQL",
 		"HexViewer",
 		"Indent XML",
