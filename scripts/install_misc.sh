@@ -14,7 +14,7 @@ if [[ $REV = *"ARCH"* ]]; then
     makepkg -si
 
     yay -S google-chrome-beta google-cloud-sdk kubectx
-else
+elif hash apt-get 2>/dev/null; then
     echo "Debian"
     # Installs urxvt terminal (with support for 256 colours)
     sudo apt-get install rxvt-unicode-256color

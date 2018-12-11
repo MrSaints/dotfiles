@@ -5,7 +5,7 @@ if [[ $REV = *"ARCH"* ]]; then
     echo "ArchLinux"
     sudo pacman -S --needed docker
     sudo systemctl enable docker.service
-else
+elif hash apt-get 2>/dev/null; then
     echo "Debian"
 
     # Install support for https, CA certificates, and curl

@@ -5,7 +5,7 @@ REV=$(uname -r)
 if [[ $REV = *"ARCH"* ]]; then
     echo "ArchLinux"
     sudo pacman -S --needed git
-else
+elif hash apt-get 2>/dev/null; then
     echo "Debian"
     sudo apt-get install git
 
