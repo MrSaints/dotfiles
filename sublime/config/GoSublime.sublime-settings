@@ -1,6 +1,6 @@
 {
     "env": {
-        "GOPATH": "$HOME/Workspace/golang",
+        "GOPATH": "$HOME/workspace/golang",
         "PATH": "$PATH:$GOPATH/bin"
     },
     "linters": [
