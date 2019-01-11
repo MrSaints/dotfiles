@@ -23,6 +23,11 @@ brew install diff-so-fancy
 brew install keybase
 brew install gpg
 brew install pinentry-mac
+brew install mkcert
+
+# Kubernetes
+brew install kubernetes-helm
+brew install ksonnet/tap/ks
 
 # Git
 brew install git
@@ -36,9 +41,10 @@ brew install git
 brew install go
 
 # Apps
-# brew cask install slack
-# brew cask install virtualbox
+# brew cask install virtualbx
 # brew cask install vivaldi
+brew cask install spotify
+brew cask install slack
 brew cask install google-chrome-beta
 brew cask install iterm2
 brew cask install sublime-text
