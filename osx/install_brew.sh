@@ -12,6 +12,7 @@ brew tap homebrew/cask-versions
 brew install coreutils --with-default-names
 brew install parallel
 brew install wget
+brew install xsv
 # brew install ffmpeg
 
 brew install jid
@@ -28,6 +29,7 @@ brew install mkcert
 # Kubernetes
 brew install kubernetes-helm
 brew install ksonnet/tap/ks
+brew install derailed/k9s/k9s
 
 # Git
 brew install git
