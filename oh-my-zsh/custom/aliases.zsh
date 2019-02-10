@@ -1,5 +1,6 @@
 # Docker
 alias dtmp="docker-compose run --rm"
+alias docui="docker run --rm -itv /var/run/docker.sock:/var/run/docker.sock skanehira/docui"
 
 # Kubernetes
 alias kc="kubectl"
