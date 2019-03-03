@@ -8,5 +8,4 @@ chmod +x ~/bin/gimme
 
 eval "$(gimme stable)"
 
-go get -u github.com/golang/dep/cmd/dep
 go get -u golang.org/x/tools/cmd/guru

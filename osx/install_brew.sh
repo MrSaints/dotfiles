@@ -12,16 +12,16 @@ brew tap homebrew/cask-versions
 brew install coreutils --with-default-names
 brew install parallel
 brew install wget
-brew install xsv
 # brew install ffmpeg
 
-brew install jid
-brew install ripgrep
 brew install bat
 brew install diff-so-fancy
+brew install jid
+brew install jq
+brew install ripgrep
+brew install xsv
 # brew install the_platinum_searcher
 
-brew install keybase
 brew install gpg
 brew install pinentry-mac
 brew install mkcert
@@ -45,10 +45,11 @@ brew install go
 # Apps
 # brew cask install virtualbx
 # brew cask install vivaldi
-brew cask install spotify
-brew cask install slack
 brew cask install google-chrome-beta
 brew cask install iterm2
+brew cask install keybase
+brew cask install slack
+brew cask install spotify
 brew cask install sublime-text
 brew cask install vlc
 
@@ -64,7 +65,7 @@ brew cask install amethyst
 # brew cask install livereload
 
 # Upgrade
-brew upgrade --all
+brew upgrade
 brew cask upgrade
 
 # Clean up
