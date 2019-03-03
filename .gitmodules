@@ -4,3 +4,6 @@
 [submodule "oh-my-zsh/custom/themes/spaceship-prompt"]
 	path = oh-my-zsh/custom/themes/spaceship-prompt
 	url = git@github.com:denysdovhan/spaceship-prompt.git
+[submodule "sublime/GoSublime"]
+	path = sublime/GoSublime
+	url = https://margo.sh/GoSublime
