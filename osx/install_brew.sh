@@ -30,6 +30,7 @@ brew install mkcert
 brew install kubernetes-helm
 brew install ksonnet/tap/ks
 brew install derailed/k9s/k9s
+brew install octant
 
 # Git
 brew install git
