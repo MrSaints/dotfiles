@@ -14,7 +14,6 @@ elif hash apt-get 2>/dev/null; then
     sudo apt-get install git-extras
 fi
 
-# TODO: configure GPG keys
 if type git >/dev/null 2>&1
 then
     echo "Setting up git ..."
@@ -44,5 +43,8 @@ then
     git config --global color.diff.old        "red bold"
     git config --global color.diff.new        "green bold"
     git config --global color.diff.whitespace "red reverse"
+
+    git config --global commit.gpgsign true
+    git config --global user.signingkey ian@fyianlai.com
 fi
 
