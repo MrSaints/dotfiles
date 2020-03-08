@@ -13,6 +13,7 @@ brew install coreutils --with-default-names
 brew install parallel
 brew install wget
 brew install ffmpeg
+# brew install iperf
 
 brew install bat
 brew install diff-so-fancy
