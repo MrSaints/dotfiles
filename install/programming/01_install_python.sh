@@ -1,6 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Installed using pyenv
+# Source: https://github.com/pyenv/pyenv
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 
 # Ensure `pyenv init` is in ~/.bash_profile, ~/.zshrc or ~/.profile
