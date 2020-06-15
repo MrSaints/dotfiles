@@ -13,7 +13,7 @@ My private key is stored offline, encrypted. To set it up on a new workstation:
 
 ```
 # Decrypt Key
-gpg --decrypt key.asc.gpg
+gpg --decrypt key.asc.gpg > key.asc
 
 # Import Key
 gpg --import key.asc
