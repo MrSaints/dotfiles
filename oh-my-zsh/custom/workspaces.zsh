@@ -1,1 +1,1 @@
-alias gopher="cd ~/workspace/golang/src/"
+alias gopher="cd ~/Workspace/golang/src/"

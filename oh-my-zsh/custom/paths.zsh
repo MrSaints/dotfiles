@@ -1,10 +1,16 @@
 # Golang
-export GOPATH=$HOME/workspace/golang
+export GOPATH="$HOME/Workspace/golang"
+export PATH="$PATH:$GOPATH/bin"
+
+# Python
 export PYENV_ROOT="$HOME/.pyenv"
-export PATH=$PATH:$GOPATH/bin:~/bin:~/.local/bin:~/.yarn/bin:/opt/google-cloud-sdk/bin/:$PYENV_ROOT/bin
+export PATH="$PATH:$PYENV_ROOT/bin"
 
-# PHP (Composer)
-export PATH=$PATH:~/.composer/vendor/bin
+# Yarn
+export PATH="$PATH:$HOME/.yarn/bin"
 
-# Ansible
-export ANSIBLE_CONFIG=$HOME/workspace/ansible
+# Google Cloud SDK
+export PATH=$PATH:/opt/google-cloud-sdk/bin/
+
+# Others
+export PATH=$PATH:$HOME/bin:$HOME/.local/bin
