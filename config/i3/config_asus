@@ -184,6 +184,9 @@ mode "$mode_system" {
 }
 bindsym $mod+Escape mode "$mode_system"
 
+# Wallpaper
+exec --no-startup-id "$HOME/.fehbg"
+
 exec --no-startup-id xset r rate 200 25
 
 # Disable tapping drag
