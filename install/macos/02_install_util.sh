@@ -11,7 +11,7 @@ brew install \
 
 brew install \
     bat \
-    jid \
+    exa \
     jq \
     ripgrep \
     xsv

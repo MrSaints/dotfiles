@@ -22,6 +22,8 @@ elif hash apt 2>/dev/null; then
         curl \
         git \
         gnupg-agent \
+        jq \
+        lib-ssl-dev \
         p7zip \
         scrot \
         software-properties-common \
