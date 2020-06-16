@@ -21,10 +21,10 @@ alias wget="wget --no-check-certificate"
 alias tarx="tar -xvzf"
 alias tarc="tar -cvzf"
 
-# Extract using file-roller
+# Extract using file-roller (Linux)
 alias extract="file-roller -h"
 
-# Numerical CHMOD
+# Numerical CHMOD (Linux)
 alias perms="stat --format '%a'"
 
 # Safety (prompts)
@@ -34,4 +34,6 @@ alias rm="rm -i"
 
 # Better `cat` code formatting
 alias bat="docker run -it --rm -e BAT_THEME -e BAT_STYLE -e BAT_TABS -v "$(pwd):/myapp" danlynn/bat"
-alias cat="bat --theme=\"Monokai Extended Origin\""
+alias cat="BAT_THEME=\"Monokai Extended Origin\" BAT_STYLE=\"numbers,changes,header\" bat"
+
+alias ls="exa"
