@@ -33,7 +33,6 @@ alias mv="mv -i"
 alias rm="rm -i"
 
 # Better `cat` code formatting
-alias bat="docker run -it --rm -e BAT_THEME -e BAT_STYLE -e BAT_TABS -v "$(pwd):/myapp" danlynn/bat"
 alias cat="BAT_THEME=\"Monokai Extended Origin\" BAT_STYLE=\"numbers,changes,header\" bat"
 
 alias ls="exa"
