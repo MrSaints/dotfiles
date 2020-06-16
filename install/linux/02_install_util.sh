@@ -7,6 +7,7 @@ if [[ $REV = *"ARCH"* ]]; then
 
     sudo pacman -S --needed \
         alsa-utils \
+        feh \
         git \
         openssh \
         p7zip \
@@ -25,6 +26,7 @@ elif hash apt 2>/dev/null; then
         ca-certificates \
         clang \
         curl \
+        feh \
         git \
         gnupg-agent \
         gnupg2 \
