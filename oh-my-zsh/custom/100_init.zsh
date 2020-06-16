@@ -13,3 +13,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Rust
 [ -s "$HOME/.cargo/env" ] && \. "$HOME/.cargo/env"
+
+# Go
+export GOPROXY=https://proxy.golang.org
