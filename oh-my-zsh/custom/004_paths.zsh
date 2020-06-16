@@ -1,6 +1,6 @@
 # Golang
 export GOPATH="$HOME/Workspace/golang"
-export PATH="$PATH:$GOPATH/bin"
+export PATH="$PATH:/usr/local/go/bin/:$GOPATH/bin"
 
 # Python
 export PYENV_ROOT="$HOME/.pyenv"
