@@ -10,8 +10,10 @@ git config --global remote.origin.prune true
 git config --global core.editor "nano"
 git config --global alias.tree "log --graph --decorate --pretty=oneline --abbrev-commit"
 
-# https://github.com/so-fancy/diff-so-fancy
-# git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+# https://github.com/dandavison/delta
+git config --global core.pager "delta --plus-color=\"#012800\" --minus-color=\"#340001\" --theme=\"Monokai Extended\""
+git config --global interactive.diffFilter "delta --color-only"
+
 git config --global color.ui true
 
 git config --global color.diff-highlight.oldNormal    "red bold"
