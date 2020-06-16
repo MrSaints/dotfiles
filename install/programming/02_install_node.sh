@@ -9,5 +9,5 @@ nvm install stable
 nvm alias default stable
 
 # Ensure the following is in ~/.bash_profile, ~/.zshrc or ~/.profile
-# export NVM_DIR="/home/mrsaints/.nvm"
+# export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
