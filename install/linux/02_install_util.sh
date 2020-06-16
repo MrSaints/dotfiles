@@ -23,9 +23,11 @@ elif hash apt 2>/dev/null; then
         alsa-utils \
         apt-transport-https \
         ca-certificates \
+        clang \
         curl \
         git \
         gnupg-agent \
+        gnupg2 \
         jq \
         lib-ssl-dev \
         p7zip \
