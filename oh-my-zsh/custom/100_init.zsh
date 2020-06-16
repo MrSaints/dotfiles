@@ -16,3 +16,8 @@ export NVM_DIR="$HOME/.nvm"
 
 # Go
 export GOPROXY=https://proxy.golang.org
+
+# Kubernetes
+if command -v kubectl 1>/dev/null 2>&1; then
+    source <(kubectl completion zsh)
+fi
