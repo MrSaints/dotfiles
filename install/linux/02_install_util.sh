@@ -15,6 +15,10 @@ if [[ $REV = *"ARCH"* ]]; then
 elif hash apt 2>/dev/null; then
     echo "Debian"
 
+    sudo add-apt-repository ppa:git-core/ppa
+
+    sudo apt update -y
+
     sudo apt install -y \
         alsa-utils \
         apt-transport-https \
