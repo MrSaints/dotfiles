@@ -1,10 +1,11 @@
 {
     "env": {
-        "GOPATH": "$HOME/workspace/golang",
+        "GOPATH": "$HOME/Workspace/golang",
         "PATH": "$PATH:$GOPATH/bin"
     },
     "linters": [
         {"cmd": ["go", "vet"]}
     ],
+    "fmt_enabled": true,
     "autocomplete_builtins": true
 }
