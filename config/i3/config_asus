@@ -192,10 +192,10 @@ exec --no-startup-id xset r rate 200 25
 # NOTE: IDs below are from `xinput list-props`
 
 # Disable tapping drag
-exec --no-startup-id xinput set-prop 13 270 0
+exec --no-startup-id xinput set-prop 13 301 0
 
 # Disable natural scroll
-exec --no-startup-id xinput set-prop 13 276 0
+exec --no-startup-id xinput set-prop 13 307 0
 
 # Workspace and Screens
 #workspace 1 output VGA1
