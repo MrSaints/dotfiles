@@ -11,10 +11,11 @@
 		".git",
 		".hg",
 		"CVS",
+		"_pgdata",
 		"__pycache__"
 	],
 	"font_face": "mononoki",
-	"font_size": 12,
+	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
