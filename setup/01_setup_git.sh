@@ -7,6 +7,8 @@ git config --global core.excludesfile ~/.gitignore_global
 git config --global rebase.autoStash true true
 git config --global remote.origin.prune true
 
+git config --global pull.rebase true
+
 git config --global core.editor "nano"
 git config --global alias.tree "log --graph --decorate --pretty=oneline --abbrev-commit"
 
