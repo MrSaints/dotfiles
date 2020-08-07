@@ -31,7 +31,7 @@ fixchmod() {
 # Clean packages
 quickclean() {
     REV=$(uname -r)
-    if [[ $REV = *"ARCH"* ]]; then
+    if [[ -f "/etc/arch-release" ]]; then
         echo "ArchLinux"
         sudo pacman -Rscn $(pacman -Qtdq)
         sudo pacman -Sc
