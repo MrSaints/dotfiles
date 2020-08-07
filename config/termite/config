@@ -1,5 +1,5 @@
 [options]
-font = mononoki 10
+font = mononoki 12
 
 [colors]
 background = "#0f1419"
