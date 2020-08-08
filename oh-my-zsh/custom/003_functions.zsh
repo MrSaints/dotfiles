@@ -43,11 +43,13 @@ quickclean() {
     fi
 }
 
-# quickreload() {
-#     sudo timedatectl set-ntp true
-#     sudo systemctl restart connman
-#     sudo systemctl restart dnscrypt-proxy
-# }
+quickreload() {
+    if [[ -f "/etc/arch-release" ]]; then
+        sudo timedatectl set-ntp true
+        sudo systemctl restart connman
+        # sudo systemctl restart dnscrypt-proxy
+    fi
+}
 
 # Generate SSH keys
 # newssh() {
