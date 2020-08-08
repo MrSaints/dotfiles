@@ -185,16 +185,3 @@ bindsym $mod+Escape mode "$mode_system"
 
 # Wallpaper
 exec --no-startup-id "$HOME/.fehbg"
-
-exec --no-startup-id xset r rate 200 25
-
-# NOTE: IDs below are from `xinput list-props`
-
-# Enable tapping
-exec --no-startup-id xinput set-prop 13 282 1
-
-# Disable tapping drag
-exec --no-startup-id xinput set-prop 13 284 0
-
-# Change acceleration
-exec --no-startup-id xinput set-prop 13 302 0.3
