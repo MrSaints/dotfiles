@@ -173,7 +173,7 @@ bindsym --release $mod+Shift+s exec scrot -s -e 'mv $f ~/Screenshots/'
 # Shutdown
 set $mode_system System (e) logout, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
-    bindsym e exec --no-startup-id i3lock -c 000000, mode "default"
+    bindsym e exec --no-startup-id $HOME/.config/i3/scripts/lock.sh, mode "default"
     bindsym r exec --no-startup-id systemctl reboot, mode "default"
     bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"
 
