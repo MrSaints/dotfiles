@@ -1,6 +1,6 @@
 [Unit]
 Description=Screen Lock on Suspend
-Before=suspend.target
+Before=sleep.target
 
 [Service]
 User=ian
@@ -8,4 +8,4 @@ Environment=DISPLAY=:0
 ExecStart=/usr/bin/i3lock --nofork -c 000000
 
 [Install]
-WantedBy=suspend.target
+WantedBy=sleep.target
