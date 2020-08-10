@@ -185,3 +185,9 @@ bindsym $mod+Escape mode "$mode_system"
 
 # Wallpaper
 exec --no-startup-id "$HOME/.fehbg"
+
+# Automatically lock on suspend / DPMS screen saver
+exec --no-startup-id xss-lock $HOME/.config/i3/scripts/lock.sh
+
+# Adjust colour temperature
+exec --no-startup-id redshift
