@@ -1,5 +1,6 @@
 # General
 export EDITOR=nano
+export BROWSER=google-chrome-beta
 
 # Python
 if command -v pyenv 1>/dev/null 2>&1; then
