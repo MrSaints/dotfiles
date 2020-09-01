@@ -16,6 +16,7 @@ lsblk -f
 
 # Create encrypted container
 cryptsetup luksFormat <device>
+
 cryptsetup open <device> cryptlvm
 
 # Create physical volume on opened container
@@ -55,6 +56,7 @@ GRUB_CMDLINE_LINUX="cryptdevice=UUID=<UUID>:cryptlvm root=/dev/<group>/rootlv"
 ## General Installation
 
 ```
+fdisk -l
 lsblk -f
 
 # Mount EFI

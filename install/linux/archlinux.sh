@@ -10,6 +10,9 @@ makepkg -si
 # General utils
 sudo pacman -S --needed \
     alsa-utils \
+    bluez-utils \
+    pulseaudio-alsa \
+    pulseaudio-bluetooth \
     curl \
     feh \
     git \
