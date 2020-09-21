@@ -51,6 +51,29 @@ quickreload() {
     fi
 }
 
+blueoff() {
+    if [[ -f "/etc/arch-release" ]]; then
+        sudo systemctl start bluetooth
+        connmanctl enable bluetooth
+
+        bluetoothctl scan off
+        bluetoothctl agent off
+        bluetoothctl power off
+
+        sudo systemctl stop bluetooth
+        connmanctl disable bluetooth
+    fi
+}
+
+blueon() {
+    if [[ -f "/etc/arch-release" ]]; then
+        sudo systemctl start bluetooth
+        connmanctl enable bluetooth
+        bluetoothctl agent on
+        bluetoothctl power on
+    fi
+}
+
 # Generate SSH keys
 # newssh() {
 #     if [ -z "$1" ]
