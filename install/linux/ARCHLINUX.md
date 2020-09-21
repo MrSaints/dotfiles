@@ -82,6 +82,7 @@ sudo pacman -S --needed \
     base-devel \
     bluez \
     connman \
+    dnsutils \
     nano \
     noto-fonts \
     noto-fonts-cjk \
