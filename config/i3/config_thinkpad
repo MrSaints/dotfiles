@@ -161,6 +161,8 @@ new_window 1pixel
 bindsym XF86AudioRaiseVolume exec amixer set Master 1%+ && killall -USR1 i3status
 bindsym XF86AudioLowerVolume exec amixer set Master 1%- && killall -USR1 i3status
 bindsym XF86AudioMute exec amixer -D pulse set Master toggle && killall -USR1 i3status
+bindsym XF86MonBrightnessUp exec backlight +10 && killall -USR1 i3status
+bindsym XF86MonBrightnessDown exec backlight -10 && killall -USR1 i3status
 
 # Launch shortcuts
 bindsym $mod+z exec google-chrome-beta
