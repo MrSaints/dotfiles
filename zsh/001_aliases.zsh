@@ -21,9 +21,6 @@ alias wget="wget --no-check-certificate"
 alias tarx="tar -xvzf"
 alias tarc="tar -cvzf"
 
-# Extract using file-roller (Linux)
-alias extract="file-roller -h"
-
 # Numerical CHMOD (Linux)
 alias perms="stat --format '%a'"
 
@@ -35,4 +32,5 @@ alias rm="rm -i"
 # Better `cat` code formatting
 alias cat="BAT_THEME=\"Monokai Extended Origin\" BAT_STYLE=\"numbers,changes,header\" bat"
 
+# Better `ls`
 alias ls="exa"

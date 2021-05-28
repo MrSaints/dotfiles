@@ -20,11 +20,8 @@ sudo pacman -S --needed \
     openssh \
     p7zip \
     scrot \
-    termite \
     wget \
     zsh
-
-./_install_ohmyzsh.sh
 
 # Thunar file manager with thumbnails, and support for samba
 sudo pacman -S --needed \
@@ -42,6 +39,9 @@ sudo pacman -S --needed go
 sudo pacman -S --needed bat fd ripgrep
 
 yay -S \
+    alacritty \
+    starship \
+    atuin \
     kubectl-bin \
     google-chrome-beta \
     git-delta

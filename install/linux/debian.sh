@@ -27,8 +27,6 @@ sudo apt install -y \
 
 sudo apt install -y i3
 
-./_install_ohmyzsh.sh
-
 # TODO: termite
 # sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/local/bin/termite 60
 
