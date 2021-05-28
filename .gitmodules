@@ -1,9 +1,3 @@
-[submodule "oh-my-zsh/custom/themes/geometry"]
-	path = oh-my-zsh/custom/themes/geometry
-	url = git@github.com:geometry-zsh/geometry.git
-[submodule "oh-my-zsh/custom/themes/spaceship-prompt"]
-	path = oh-my-zsh/custom/themes/spaceship-prompt
-	url = git@github.com:denysdovhan/spaceship-prompt.git
 [submodule "config/sublime-text-3/GoSublime"]
 	path = config/sublime-text-3/Packages/GoSublime
 	url = https://margo.sh/GoSublime
