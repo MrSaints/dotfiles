@@ -24,6 +24,16 @@ ln -s $HOME/Workspace/dotfiles/config/sublime-text-3/Packages/GoSublime $HOME/.c
 # Arch Linux
 ln -s $HOME/Workspace/dotfiles/xinitrc $HOME/.xinitrc
 ln -s $HOME/Workspace/dotfiles/zprofile $HOME/.zprofile
+
+# ZSH
+ln -s $HOME/Workspace/dotfiles/zshrc $HOME/.zshrc
+ln -s $HOME/Workspace/dotfiles/zsh $HOME/zsh
+
+# Extras
+ln -s $HOME/Workspace/dotfiles/config/alacritty $HOME/.config/alacritty
+# Update [manual] with location
+ln -s $HOME/Workspace/dotfiles/config/redshift $HOME/.config/redshift
+ln -s $HOME/Workspace/dotfiles/config/starship.toml $HOME/.config/starship.toml
 ```
 
 
