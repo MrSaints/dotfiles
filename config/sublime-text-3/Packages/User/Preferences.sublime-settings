@@ -17,13 +17,13 @@
 		"_next",
 		"node_modules"
 	],
-	"font_face": "mononoki",
+	"font_face": "mononoki Nerd Font Mono",
 	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
@@ -45,5 +45,5 @@
 	"theme": "ayu-dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"ui_font_size_small": true,
-	"ui_separator": true
+	"ui_separator": true,
 }
