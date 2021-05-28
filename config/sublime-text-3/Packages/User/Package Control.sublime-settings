@@ -7,10 +7,8 @@
 	[
 		"A File Icon",
 		"ayu",
-		"Babel",
 		"Base16 Color Schemes",
 		"BazelSyntax",
-		"Better CoffeeScript",
 		"BracketHighlighter",
 		"Bubububububad and Boneyfied Color Schemes",
 		"Dockerfile Syntax Highlighting",
@@ -36,6 +34,6 @@
 		"SublimeLinter-golint",
 		"Terraform",
 		"TrailingSpaces",
-		"TypeScript"
-	]
+		"TypeScript",
+	],
 }
