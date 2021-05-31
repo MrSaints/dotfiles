@@ -33,4 +33,4 @@ alias rm="rm -i"
 alias cat="BAT_THEME=\"Monokai Extended Origin\" BAT_STYLE=\"numbers,changes,header\" bat"
 
 # Better `ls`
-alias ls="exa"
+alias ls="exa --git"
