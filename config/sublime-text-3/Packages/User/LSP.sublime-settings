@@ -1,0 +1,12 @@
+{
+    "clients": {
+        "gopls": {
+            "enabled": true,
+            "command": ["~/Workspace/golang/bin/gopls"],
+            "selector": "source.go",
+            "initializationOptions": {
+                "experimentalWorkspaceModule": false
+            }
+        }
+    }
+}
