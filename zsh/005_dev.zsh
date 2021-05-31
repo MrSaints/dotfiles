@@ -17,6 +17,7 @@ export PATH="$PATH:$HOME/.yarn/bin"
 
 # Rust
 [ -s "$HOME/.cargo/env" ] && \. "$HOME/.cargo/env"
+export PATH="$PATH:$HOME/.cargo/bin"
 
 # Go
 export GOPROXY=https://proxy.golang.org
