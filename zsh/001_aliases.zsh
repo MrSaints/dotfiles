@@ -34,3 +34,6 @@ alias cat="BAT_THEME=\"Monokai Extended Origin\" BAT_STYLE=\"numbers,changes,hea
 
 # Better `ls`
 alias ls="exa --git"
+
+# Fix SSH terminal
+alias ssh="TERM=xterm-256color ssh"
