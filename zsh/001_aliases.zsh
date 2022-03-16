@@ -37,3 +37,10 @@ alias ls="exa --git"
 
 # Fix SSH terminal
 alias ssh="TERM=xterm-256color ssh"
+
+# Directories
+alias -g ...="../.."
+alias -g ....="../../.."
+alias -g .....="../../../.."
+alias -g ......="../../../../.."
+alias -- -="cd -"
