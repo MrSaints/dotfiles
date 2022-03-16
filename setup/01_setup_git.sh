@@ -13,7 +13,7 @@ git config --global core.editor "nano"
 git config --global alias.tree "log --graph --decorate --pretty=oneline --abbrev-commit"
 
 # https://github.com/dandavison/delta
-git config --global core.pager "delta --plus-color=\"#012800\" --minus-color=\"#340001\" --theme=\"Monokai Extended\""
+git config --global core.pager "delta --plus-style=\"syntax #012800\" --minus-style=\"normal #340001\" --syntax-theme=\"Monokai Extended\""
 git config --global interactive.diffFilter "delta --color-only"
 
 git config --global color.ui true
