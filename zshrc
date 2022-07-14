@@ -21,4 +21,5 @@ zstyle ':completion:*' list-colors ''
 [[ -s "$HOME/.zsh/003_functions.zsh" ]] && source "$HOME/.zsh/003_functions.zsh"
 [[ -s "$HOME/.zsh/004_paths.zsh" ]] && source "$HOME/.zsh/004_paths.zsh"
 [[ -s "$HOME/.zsh/005_dev.zsh" ]] && source "$HOME/.zsh/005_dev.zsh"
+[[ -s "$HOME/.zsh/006_gpgssh.zsh" ]] && source "$HOME/.zsh/006_gpgssh.zsh"
 [[ -s "$HOME/.zsh/100_init.zsh" ]] && source "$HOME/.zsh/100_init.zsh"
