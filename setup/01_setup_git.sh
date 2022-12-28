@@ -14,7 +14,7 @@ git config --global alias.tree "log --graph --decorate --pretty=oneline --abbrev
 
 # https://github.com/dandavison/delta
 git config --global core.pager "delta --plus-style=\"syntax #012800\" --minus-style=\"normal #340001\" --syntax-theme=\"Monokai Extended\""
-git config --global interactive.diffFilter "delta --color-only"
+git config --global interactive.diffFilter "delta --color-only --features=interactive"
 
 git config --global color.ui true
 

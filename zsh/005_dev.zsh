@@ -28,3 +28,4 @@ export PATH="$PATH:/usr/local/go/bin/:$GOPATH/bin"
 if command -v kubectl 1>/dev/null 2>&1; then
     source <(kubectl completion zsh)
 fi
+export KUBECTL_EXTERNAL_DIFF="delta --plus-style=\"syntax #012800\" --minus-style=\"normal #340001\" --syntax-theme=\"Monokai Extended\""
