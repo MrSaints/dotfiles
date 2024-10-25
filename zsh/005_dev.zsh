@@ -15,9 +15,15 @@ export NVM_DIR="$HOME/.nvm"
 # Yarn
 export PATH="$PATH:$HOME/.yarn/bin"
 
+# pnpm
+export PNPM_HOME="$HOME/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+
 # Rust
 [ -s "$HOME/.cargo/env" ] && \. "$HOME/.cargo/env"
-export PATH="$PATH:$HOME/.cargo/bin"
 
 # Go
 export GOPROXY=https://proxy.golang.org
@@ -29,3 +35,10 @@ if command -v kubectl 1>/dev/null 2>&1; then
     source <(kubectl completion zsh)
 fi
 export KUBECTL_EXTERNAL_DIFF="delta --plus-style=\"syntax #012800\" --minus-style=\"normal #340001\" --syntax-theme=\"Monokai Extended\""
+
+# Fly.io
+export FLYCTL_INSTALL="$HOME/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
+# Foundry
+export PATH="$PATH:$HOME/.foundry/bin"
