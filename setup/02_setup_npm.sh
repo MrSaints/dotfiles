@@ -9,4 +9,4 @@ npm config set init.license MIT
 npm adduser
 
 # Install useful npm globals
-npm install -g yarn
+npm install -g pnpm
