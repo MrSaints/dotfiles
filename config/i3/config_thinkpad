@@ -166,7 +166,7 @@ bindsym XF86MonBrightnessDown exec backlight -10 && killall -USR1 i3status
 
 # Launch shortcuts
 bindsym $mod+z exec google-chrome-beta
-bindsym $mod+x exec subl
+bindsym $mod+x exec code
 bindsym $mod+c exec thunar
 
 # Screenshots
