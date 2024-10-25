@@ -46,4 +46,5 @@
 	"translate_tabs_to_spaces": true,
 	"ui_font_size_small": true,
 	"ui_separator": true,
+	"index_files": true,
 }
